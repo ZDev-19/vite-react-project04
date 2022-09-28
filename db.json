@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Paddinton",
+      "empresa": "EQ ",
+      "email": "fracasologo@gmail.com",
+      "telefono": "321456743",
+      "notas": "",
+      "id": 1
+    }
+  ]
+}
