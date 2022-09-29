@@ -119,7 +119,7 @@ const Formulario = ({ cliente, cargando }) => {
                   <label
                     className='text-gray-800'
                     htmlFor='empresa'
-                  >Empresa:</label>
+                  >Empresa :</label>
 
                   <Field
                     id="empresa"

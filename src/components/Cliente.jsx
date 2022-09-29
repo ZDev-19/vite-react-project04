@@ -4,7 +4,7 @@ const Cliente = ({ cliente , handleEliminar}) => {
 
     const navigate = useNavigate()
 
-    const {nombre,empresa,email,telefono,notas,id} = cliente
+    const {nombre,empresa,email,telefono,id} = cliente
 
     return (
         <tr className="border-b hover:bg-gray-50">
