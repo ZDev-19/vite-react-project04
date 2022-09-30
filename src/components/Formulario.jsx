@@ -52,6 +52,7 @@ const Formulario = ({ cliente, cargando }) => {
         })
       }
 
+      console.log('Edit URL: ' + url)
       await respuesta.json()
       navigate('/clientes')
       
