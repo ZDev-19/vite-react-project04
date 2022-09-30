@@ -52,7 +52,7 @@ const Formulario = ({ cliente, cargando }) => {
         })
       }
 
-      console.log('Edit rpt: ' + respuesta)
+      console.log(respuesta)
       await respuesta.json()
       navigate('/clientes')
       
