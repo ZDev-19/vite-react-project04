@@ -32,6 +32,7 @@ const Formulario = ({ cliente, cargando }) => {
         //Editando registro
         const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
 
+          console.log(url)
           respuesta = await fetch(url, {
           method: 'PUT',
           body: JSON.stringify(valores),
@@ -42,7 +43,7 @@ const Formulario = ({ cliente, cargando }) => {
       } else {
         //Nuevo registro
         const url = import.meta.env.VITE_API_URL
-
+          console.log(url)
           respuesta = await fetch(url, {
           method: 'POST',
           body: JSON.stringify(valores),
