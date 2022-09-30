@@ -56,7 +56,7 @@ const Formulario = ({ cliente, cargando }) => {
       navigate('/clientes')
       
     } catch (error) {
-
+      console.log(error)
     }
   }
 
