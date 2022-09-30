@@ -52,7 +52,6 @@ const Formulario = ({ cliente, cargando }) => {
         })
       }
 
-      console.log(respuesta)
       await respuesta.json()
       navigate('/clientes')
       
